@@ -212,6 +212,15 @@
       }
       .project-link svg { width: 16px; height: 16px; stroke: currentColor; }
       .project-link:hover { color: var(--ink); }
+      .btn-download {
+        display: inline-flex; align-items: center; gap: 8px; align-self: flex-start;
+        text-decoration: none; font-weight: 600; font-size: 15.5px;
+        background: var(--green-deep); color: #fdf8ec;
+        padding: 11px 20px; border-radius: 11px; margin-bottom: 16px;
+        box-shadow: var(--shadow); transition: transform .15s ease;
+      }
+      .btn-download:hover { transform: translateY(-2px); }
+      .btn-download svg { width: 17px; height: 17px; stroke: currentColor; }
 
       /* ---------- Skills ---------- */
       .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
@@ -385,6 +394,10 @@
               <h3>অভিরাম (বামনডাঙ্গা) জামে মসজিদ ম্যানেজমেন্ট অ্যাপ</h3>
               <p class="desc">মসজিদের পূর্ণাঙ্গ ব্যবস্থাপনা — আয়-ব্যয়ের হিসাব, ভাউচার, মুসল্লি, স্টাফ, কমিটি, নোটিশ, কুরআন-হাদিস, আর bKash SMS দিয়ে অটো-ভেরিফাইসহ অনলাইন দান যাচাই।</p>
               <div class="tags"><span>হিসাব ও ভাউচার</span><span>মুসল্লি ও কমিটি</span><span>অনলাইন দান</span></div>
+              <a class="btn-download" href="https://mozahidofficial.github.io/OviramJameMosjid_v4.27_148.apk" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+                অ্যাপ ডাউনলোড করুন · ভার্সন ৪.২৭
+              </a>
               <a class="project-link" href="https://mozahidofficial.github.io/oviram-daan/" target="_blank" rel="noopener">দান পেজ দেখুন
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
               </a>
